@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+
+/* :root {
+  --font-pixelify-sans: 'Pixelify Sans', sans-serif;
+}
+
+#root {
+  font-family: var(--font-pixelify-sans);
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* globals.css */
+/* body {
+  font-family: var(--font-pixelify-sans);
+} */
+

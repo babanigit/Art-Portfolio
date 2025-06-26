@@ -38,8 +38,8 @@ const Header = () => {
         </a>
       </li>
       <li>
-        <a href="#connect" className="hover:text-blue-600">
-          connect
+        <a href="#contact" className="hover:text-blue-600">
+          contact
         </a>
       </li>
       <li>
