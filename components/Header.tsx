@@ -22,16 +22,16 @@ const Header = () => {
           experience
         </a>
       </li>
-      <li>
+      {/* <li>
         <a href="#skills" className="hover:text-blue-600">
           skills
         </a>
-      </li>
-      <li>
+      </li> */}
+      {/* <li>
         <a href="#education" className="hover:text-blue-600">
           education
         </a>
-      </li>
+      </li> */}
       <li>
         <a href="#projects" className="hover:text-blue-600">
           projects
@@ -42,7 +42,7 @@ const Header = () => {
           contact
         </a>
       </li>
-      <li>
+      {/* <li>
         <a href="/resume" className="hover:text-blue-600">
           resume
         </a>
@@ -51,7 +51,7 @@ const Header = () => {
         <a href="/portfolio" className="hover:text-blue-600">
           portfolio
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 };

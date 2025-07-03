@@ -1,19 +1,13 @@
-
-
-import React from 'react'
+import React from "react";
 
 const Projects = () => {
-    return (
-        <>
-            <div
-                className=' min-h-screen'
-            >
-                <div>Projects</div>
+  return (
+    <>
+      <div className=" min-h-screen">
+        <div>Projects</div>
+      </div>
+    </>
+  );
+};
 
-            </div>
-
-        </>
-    )
-}
-
-export default Projects
+export default Projects;

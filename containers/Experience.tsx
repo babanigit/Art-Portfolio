@@ -1,18 +1,13 @@
-
-
-import React from 'react'
+import React from "react";
 
 const Experience = () => {
-    return (
-        <>
-            <section
-                className=' min-h-screen'
-            >
+  return (
+    <>
+      <section className=" min-h-screen">
+        <div>Experience</div>
+      </section>
+    </>
+  );
+};
 
-                <div>Experience</div>
-            </section>
-        </>
-    )
-}
-
-export default Experience
+export default Experience;

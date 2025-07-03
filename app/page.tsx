@@ -36,36 +36,28 @@ const Home = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 w-full bg-white shadow-md z-50 transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"
+        className={`fixed top-0 w-full bg-gray-100 shadow-md z-50 transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"
           }`}
       >
         <Header />
       </nav>
 
       <div className="scroll-smooth">
-        <section id="home" className=" pt-10 scroll-mt-20">
-          {/* <h1 className="text-4xl font-bold"></h1> */}
+
+        <section id="home" className=" bg-yellow-100  pt-10 scroll-mt-20">
           <Greeting />
         </section>
         <section id="experience" className=" pt-10 scroll-mt-20">
-          {/* <h1 className="text-4xl font-bold"> experience</h1> */}
           <Experience />
         </section>
-
         <section id="projects" className=" pt-10 scroll-mt-20">
-          {/* <h1 className="text-4xl font-bold"> experience</h1> */}
-          {/* <Experience /> */}
           <Projects />
         </section>
-
         <section id="contact" className=" pt-10 scroll-mt-20">
-          {/* <h1 className="text-4xl font-bold"> experience</h1> */}
-          {/* <Skills /> */}
           <ContectMe />
         </section>
 
       </div>
-
     </>
   )
 }

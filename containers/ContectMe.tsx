@@ -1,21 +1,13 @@
-
-
-
-import React from 'react'
+import React from "react";
 
 const ContectMe = () => {
-    return (
+  return (
+    <>
+      <section className=" min-h-screen">
+        <div>ContectMe</div>
+      </section>
+    </>
+  );
+};
 
-        <>
-            <section
-                className=' min-h-screen'
-            >
-
-                <div>ContectMe</div>
-            </section>
-        </>
-
-    )
-}
-
-export default ContectMe
+export default ContectMe;
